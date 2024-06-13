@@ -1,11 +1,15 @@
-export class Project {
-    projectId:number=0;
-    projectName:any="";
-    teamSize:number=0;
+export class Project
+{
+    projectID: any;
+    projectName: any;
+    // dateOfStart: any;
+    teamSize: any;
 
-    constructor(){
-        this.projectId=0;
-        this.projectName="";
-        this.teamSize=0;
+    constructor()
+    {
+        this.projectID = 0;
+        this.projectName = null;
+        // this.dateOfStart = null;
+        this.teamSize = 0;
     }
 }

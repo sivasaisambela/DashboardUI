@@ -123,7 +123,7 @@
                   2024
                 </button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#" *ngFor="let yr of Years">
+                  <a class="dropdown-item" href="#" *ngFor="let yr of Years" onclick="return false">
                   <span [ngSwitch]="yr">
                     <span *ngSwitchCase="'2021'" style="color:green">{{ yr }} </span>
                     <span *ngSwitchCase="'2022'" style="color:red">{{ yr }} </span>
